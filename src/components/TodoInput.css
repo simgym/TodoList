@@ -1,0 +1,77 @@
+.input-wrapper {
+  position: relative;
+  width: 50%;
+  margin: auto;
+  margin-bottom: 100px;
+  margin-left: 30%;
+}
+
+.input-wrapper input {
+  width: 100%;
+  height: auto;
+  padding: 15px;
+  border-radius: 40px;
+  border: 2px solid #654321;
+  font-size: x-large;
+}
+
+.input-wrapper .add-button {
+  position: absolute;
+  right: -20px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #a52a2a;
+  color: white;
+  border: none;
+  font-size: x-large;
+}
+
+.input-wrapper .add-button:hover {
+  background-color: #822121;
+}
+
+@media (max-width: 320px) {
+  .input-wrapper input,
+  .input-wrapper .add-button {
+    font-size: 0.8em;
+  }
+}
+
+@media (min-width: 321px) and (max-width: 480px) {
+  .input-wrapper input,
+  .input-wrapper .add-button {
+    font-size: 1em;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 599px) {
+  .input-wrapper input,
+  .input-wrapper .add-button {
+    font-size: 1.2em;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 991px) {
+  .input-wrapper {
+    width: 70%;
+    margin-left: 25%;
+  }
+  .input-wrapper input,
+  .input-wrapper .add-button {
+    font-size: 1.5em;
+  }
+}
+
+@media (min-width: 992px) {
+  .input-wrapper {
+    width: 50%;
+    margin-left: 25%;
+  }
+  .input-wrapper input,
+  .input-wrapper .add-button {
+    font-size: 2em;
+  }
+}

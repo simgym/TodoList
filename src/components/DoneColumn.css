@@ -1,0 +1,37 @@
+.done-column {
+  border-radius: 5px;
+  padding: 20px;
+  width: 45%;
+  border: 1px solid yellowgreen;
+  border-radius: 20px;
+}
+
+.done-column h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: xx-large;
+  color: #ffffff;
+}
+
+.done-column ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 0;
+  margin-top: 10px;
+}
+
+.done-column li {
+  background: linear-gradient(to right, yellowgreen, green);
+  width: 98%;
+  height: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid black;
+  color: black;
+  font-weight: bold;
+  font-size: larger;
+  padding-left: 10px;
+}

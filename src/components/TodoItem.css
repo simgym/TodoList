@@ -1,0 +1,22 @@
+.tasks-button {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin-right: 5%;
+}
+.tasks-button button {
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+}
+.edit-button {
+  margin-right: 10%;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+}
+.todo-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}

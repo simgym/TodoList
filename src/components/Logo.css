@@ -1,0 +1,27 @@
+.listLogo {
+  position: absolute;
+  left: 1%;
+  top: 2.5%;
+  z-index: 0;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .listLogo {
+    left: 1%;
+    top: -6%;
+  }
+}
+
+@media (max-width: 767px) {
+  .listLogo {
+    left: 1%;
+    top: -8%;
+  }
+}
+
+@media (min-width: 992px) {
+  .listLogo {
+    left: 1%;
+    top: 0%;
+  }
+}
